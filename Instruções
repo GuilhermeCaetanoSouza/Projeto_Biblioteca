@@ -1,0 +1,16 @@
+Este site esta apenas como demonstração a parte de gerenciamente de dados etc... não é funcional 100%.
+
+Todos dados cadastrados estão dentro do arquivo json.
+
+O sistema possui alguns logins para se testas (admin e user) 
+
+admin:
+admin@biblioteca.com
+admin123
+
+user:
+joao@email.com
+senha123
+
+maria@email.com
+senha123
