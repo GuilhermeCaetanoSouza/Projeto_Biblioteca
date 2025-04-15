@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblioteca Online</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1><img src="images/logo.png" alt="Logo" class="logo"> Biblioteca Online</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="#livros">Livros</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                    <li id="myBooksLink" style="display: none;"><a href="meus-livros.html">Meus Livros</a></li>
+                </ul>
+            </nav>
+            <div class="user-actions">
+                <span id="userGreeting"></span>
+                <div id="authButtons">
+                    <a href="login.html" class="btn">Login</a>
+                    <a href="cadastro.html" class="btn">Cadastrar</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="hero">
+            <h2>Encontre seu próximo livro favorito</h2>
+            <p>Explore nosso acervo com milhares de títulos disponíveis</p>
+        </section>
+
+        <section id="search-section">
+            <div class="search-container">
+                <input type="text" id="searchInput" placeholder="Buscar livros por título, autor ou gênero...">
+                <button id="searchBtn"><i class="fas fa-search"></i> Buscar</button>
+            </div>
+            <div class="filters">
+                <select id="genreFilter">
+                    <option value="">Todos os Gêneros</option>
+                    <option value="fantasia">Fantasia</option>
+                    <option value="ficcao">Ficção</option>
+                    <option value="romance">Romance</option>
+                    <option value="tecnologia">Tecnologia</option>
+                </select>
+                <select id="availabilityFilter">
+                    <option value="">Todos</option>
+                    <option value="disponivel">Disponíveis</option>
+                    <option value="reservado">Reservados</option>
+                </select>
+            </div>
+        </section>
+
+        <section id="books-section">
+            <h2>Catálogo de Livros</h2>
+            <div id="books-container" class="books-grid">
+                <!-- Livros carregados via JavaScript -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-section">
+                <h3>Biblioteca Online</h3>
+                <p>O melhor lugar para encontrar e reservar seus livros favoritos.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Horário de Funcionamento</h3>
+                <p>Segunda a Sexta: 8h às 20h</p>
+                <p>Sábado: 9h às 18h</p>
+            </div>
+            <div class="footer-section">
+                <h3>Contato</h3>
+                <p>Email: contato@bibliotecaonline.com</p>
+                <p>Telefone: (11) 1234-5678</p>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2023 Biblioteca Online. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script src="js/auth.js"></script>
+    <script src="js/reservas.js"></script>
+</body>
+</html>
