@@ -1,0 +1,198 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Administrador",
+      "email": "admin@biblioteca.com",
+      "password": "admin123",
+      "role": "admin",
+      "createdAt": "2023-01-01"
+    },
+    {
+      "id": 2,
+      "name": "João Silva",
+      "email": "joao@email.com",
+      "password": "senha123",
+      "role": "user",
+      "createdAt": "2023-01-15"
+    },
+    {
+      "id": 3,
+      "name": "Maria Souza",
+      "email": "maria@email.com",
+      "password": "senha123",
+      "role": "user",
+      "createdAt": "2023-02-10"
+    }
+  ],
+  "books": [
+    {
+      "id": 1,
+      "title": "O Senhor dos Anéis",
+      "author": "J.R.R. Tolkien",
+      "genre": "fantasia",
+      "cover": "https://m.media-amazon.com/images/I/41gHG-a2OEL._SY425_.jpg",
+      "description": "Uma epopeia fantástica...",
+      "available": true,
+      "pages": 576,
+      "year": 1954
+    },
+    {
+      "id": 2,
+      "title": "1984",
+      "author": "George Orwell",
+      "genre": "ficcao",
+      "cover": "https://m.media-amazon.com/images/I/71kxa1-0mfL._SY425_.jpg",
+      "description": "Uma distopia sombria...",
+      "available": true,
+      "pages": 416,
+      "year": 1949
+    },
+    {
+      "id": 3,
+      "title": "Harry Potter e a Pedra Filosofal",
+      "author": "J.K. Rowling",
+      "genre": "fantasia",
+      "cover": "https://m.media-amazon.com/images/I/81iqZ2HHD-L._SY425_.jpg",
+      "available": true,
+      "pages": 264,
+      "year": 1997
+    },
+    {
+      "id": 4,
+      "title": "Cem Anos de Solidão",
+      "author": "Gabriel García Márquez",
+      "genre": "realismo-magico",
+      "cover": "https://m.media-amazon.com/images/I/81VLapJvXkL._SY425_.jpg",
+      "available": true,
+      "pages": 448,
+      "year": 1967
+    },
+    {
+      "id": 5,
+      "title": "O Pequeno Príncipe",
+      "author": "Antoine de Saint-Exupéry",
+      "genre": "infantil",
+      "cover": "https://m.media-amazon.com/images/I/71M4JH5KfVL._SY425_.jpg",
+      "available": false,
+      "pages": 96,
+      "year": 1943
+    },
+    {
+      "id": 6,
+      "title": "Dom Quixote",
+      "author": "Miguel de Cervantes",
+      "genre": "classico",
+      "cover": "https://m.media-amazon.com/images/I/91RSpW5ORVL._SY425_.jpg",
+      "available": true,
+      "pages": 1072,
+      "year": 1605
+    },
+    {
+      "id": 7,
+      "title": "Orgulho e Preconceito",
+      "author": "Jane Austen",
+      "genre": "romance",
+      "cover": "https://m.media-amazon.com/images/I/71Q1tPupKjL._SY425_.jpg",
+      "available": true,
+      "pages": 424,
+      "year": 1813
+    },
+    {
+      "id": 8,
+      "title": "A Revolução dos Bichos",
+      "author": "George Orwell",
+      "genre": "satira",
+      "cover": "https://m.media-amazon.com/images/I/91BsZhxCRjL._SY425_.jpg",
+      "available": true,
+      "pages": 152,
+      "year": 1945
+    },
+    {
+      "id": 9,
+      "title": "O Hobbit",
+      "author": "J.R.R. Tolkien",
+      "genre": "fantasia",
+      "cover": "https://m.media-amazon.com/images/I/710+HcoP38L._SY425_.jpg",
+      "available": false,
+      "pages": 310,
+      "year": 1937
+    },
+    {
+      "id": 10,
+      "title": "Crime e Castigo",
+      "author": "Fiódor Dostoiévski",
+      "genre": "drama",
+      "cover": "https://m.media-amazon.com/images/I/71YHjVXyR0L._SY425_.jpg",
+      "available": true,
+      "pages": 608,
+      "year": 1866
+    },
+    {
+      "id": 11,
+      "title": "O Apanhador no Campo de Centeio",
+      "author": "J.D. Salinger",
+      "genre": "drama",
+      "cover": "https://m.media-amazon.com/images/I/91HPG31dTwL._SY425_.jpg",
+      "available": true,
+      "pages": 288,
+      "year": 1951
+    },
+    {
+      "id": 12,
+      "title": "A Metamorfose",
+      "author": "Franz Kafka",
+      "genre": "absurdismo",
+      "cover": "https://m.media-amazon.com/images/I/71FS2K-EQqL._SY425_.jpg",
+      "available": true,
+      "pages": 96,
+      "year": 1915
+    },
+    {
+      "id": 13,
+      "title": "O Grande Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "genre": "drama",
+      "cover": "https://m.media-amazon.com/images/I/71FTb9X6wsL._SY425_.jpg",
+      "available": false,
+      "pages": 208,
+      "year": 1925
+    },
+    {
+      "id": 14,
+      "title": "Ulisses",
+      "author": "James Joyce",
+      "genre": "modernista",
+      "cover": "https://m.media-amazon.com/images/I/71m-MxdJN0L._SY425_.jpg",
+      "available": true,
+      "pages": 816,
+      "year": 1922
+    }
+  ],
+  "reservations": [
+    {
+      "id": 1,
+      "bookId": 1,
+      "userId": 2,
+      "reservationDate": "2023-06-15",
+      "returnDate": "2023-06-30",
+      "status": "active"
+    },
+    {
+      "id": 2,
+      "bookId": 5,
+      "userId": 3,
+      "reservationDate": "2023-07-01",
+      "returnDate": "2023-07-15",
+      "status": "active"
+    },
+    {
+      "id": 3,
+      "bookId": 9,
+      "userId": 2,
+      "reservationDate": "2023-07-10",
+      "returnDate": "2023-07-25",
+      "status": "active"
+    }
+  ]
+}
